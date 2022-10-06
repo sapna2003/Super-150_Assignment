@@ -5,18 +5,15 @@
 }
 nav{
     background-color: black;
-    height:60px;
+    height:10vh;
     color:white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* position: fixed;
-    top: 0%;
-    width: 100%; */
-    bottom: 10px;
     font-size: 20px;
-    padding: 15px 20px;
-
+    align-items: baseline;
+    margin: auto;
+    padding:0px 30px;
 }
 nav ul{
     justify-content:center ;
@@ -26,39 +23,38 @@ nav ul{
 }
 
 button{
-    background-color: black;
     height:40px;
-    width:70px;
-    color:#29d9d5;
+    width:90px;
+    color:white;
+    background-color: #29d9d5;
     border: 1px solid #29d9d5;
     border-radius: 10px;
 }
 
 nav ul li{
-     padding-left:20px ;
+    padding-left:20px ;
     list-style: none;
+    
 }
 i{
-    height: 30px;
-    width: 30px;
+    font-size: 40px;
     color:#29d9d5;
-    border: 1px solid #29d9d5;
     border-radius: 2px;
-    margin: 5px;
+    text-align: baseline;
 }
 a{
     color:white;
     text-decoration: none;  
 }
 a:hover{
-    color:#29d9d5;
+    color:black;
 }
 #main{
     padding:0px 20px;
 }
 #header{
     height:120px;
-    width:100vw;
+    width:100%;
     background-color: #FFCACA;
     border-radius: 15px;
     margin-top: 10px;
@@ -74,8 +70,9 @@ a:hover{
 #grid{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 20px;
-    gap: 15px;
+    padding: 20px 15px;
+    margin: auto;
+    gap: 45px;
 }
 .box{
     height: 300px;
@@ -91,9 +88,24 @@ img:hover{
     color:rgba(0, 0,0, 0.3);  
 }
 section{
-    height: 200px;
+    width:100vw;
+    height: 500px;
     text-align: center;
-    background-image: url("./images/nithin-p-john-LDwHoFJYlpE-unsplash.jpg");
+    background-image: url("/images/aaker-gFmBquOaFDE-unsplash.jpg");
+    background-size:cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+section div {
+    justify-content: baseline;
+}
+section div h1 {
+    font-size: 50px;
+}
+section div h2 {
+    font-size:30px;
 }
 footer{
     padding: 40px;
@@ -105,4 +117,26 @@ footer{
 }
 p{
     margin: 5px;
+    font-size: 20px;
+}
+#section-btn {
+    width:150px;
+    height: 40px;
+    font-size: 20px;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+footer div p {
+    margin-left: 0px;
+}
+footer div p i {
+    padding-right: 20px;
+}
+div .con3 {
+    vertical-align: baseline;
+}
+.con3 button {
+    width: 150px;
 }
